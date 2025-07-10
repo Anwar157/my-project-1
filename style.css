@@ -1,0 +1,63 @@
+/* header style */
+
+.header-style {
+    max-width: 1440;
+    max-height: 698;
+    background-image: url(ui/banner.png);
+    background-size: cover;
+   
+}
+
+/* logo style */
+
+.logo {
+    color: #4E47FF;
+}
+
+ /* nav style */
+ .nav-style {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+ }
+
+/* banner font color and style*/
+
+.raleway-font-banner {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  color: #252432;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  padding: 40px 20px;
+
+}
+
+
+/* logo font color and style */
+
+.inter-font-log {
+  font-family: "Inter", sans-serif;
+  font-size: 34;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* button style */
+.btn-style {
+    background-color: #4E47FF;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    color: white;
+}
