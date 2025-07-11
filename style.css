@@ -161,3 +161,22 @@ section, div, button {
  /* .position-style {
   margin-top: 20px;
  } */
+/* form style */
+.form-info {
+  max-width: 980px;
+  max-height: 632px;
+  display: flex;
+  background-color: #b3b0f3;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 15px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.form-style {
+  max-width: 497px;
+  max-height: 490px;
+  padding:30px 0px 20px 0px;
+}
