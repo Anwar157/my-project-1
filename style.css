@@ -131,6 +131,33 @@ section, div, button {
 
 
  }
+ .uses-users-container {
+  background-color: #b3b0f3;
+  max-height: 306px;
+  max-width: 1140px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+ }
+
+ .uses-users {
+  width: 856px;
+  height: 206px;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  line-height: 5px;
+ }
+
+ .user-rating {
+  color: #4E47FF;
+  font-weight: bold;
+  font-size: 50px;
+ }
+
  /* .position-style {
   margin-top: 20px;
  } */
