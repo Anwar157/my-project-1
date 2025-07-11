@@ -1,3 +1,7 @@
+body {
+  background-color: lightblue;
+  font-family: "Raleway", sans-serif ;
+}
 /* header style */
 
 .header-style {
@@ -43,8 +47,8 @@ nav a {
   padding: 40px 20px;
 
 }
-span {
-  margin: 0px 50px ;
+section, div, button {
+  align-items: center;
 }
 
 
@@ -86,8 +90,47 @@ span {
  
 }
 .wc-mini {
-  height: 328;
-  width: 403;
+  height: 328px;
+  width: 403px;
   border-radius: 15px;
   
 }
+/* card container style */
+
+.card-container {
+  max-width: 1140px;
+  max-height: 342px;
+  display: flex;
+  gap: 10px;
+}
+/* card-style */
+
+.card-style {
+  max-width: 366px;
+  max-height: 243px;
+  border-radius: 14px;
+  background-color: white;
+  text-align: left;
+  padding: 10px 10px 40px 15px;
+  
+}
+/* user name date style */
+/* .users-info {
+  display: flex;
+  text-decoration: none;
+  color: #252432;
+  justify-content: center;
+  align-items: center;
+  
+} */
+ .wc-big-style {
+  max-width: 840px;
+  max-height: 364px;
+  border-radius: 20px;
+  margin: 10px 20px 0px 40px;
+
+
+ }
+ /* .position-style {
+  margin-top: 20px;
+ } */
