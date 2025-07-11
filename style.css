@@ -13,6 +13,9 @@
 .logo {
     color: #4E47FF;
 }
+nav a {
+  text-decoration: none;
+}
 
  /* nav style */
  .nav-style {
@@ -40,6 +43,9 @@
   padding: 40px 20px;
 
 }
+span {
+  margin: 0px 50px ;
+}
 
 
 /* logo font color and style */
@@ -60,4 +66,28 @@
     width: 120px;
     height: 30px;
     color: white;
+}
+.btn-style:hover{
+  background-color: goldenrod;
+  cursor: pointer;
+}
+
+/* main section style-1 */
+
+.action-webflow {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  max-height: 328px;
+  max-width: 1140px;
+  display: flex;
+  margin: 40px 40px;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.wc-mini {
+  height: 328;
+  width: 403;
+  border-radius: 15px;
+  
 }
